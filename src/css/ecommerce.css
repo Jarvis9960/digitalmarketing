@@ -1,0 +1,80 @@
+  .eCom{
+    background-color: #EDEDED;
+  }
+  
+  
+  /* Reset some basic elements for consistency across browsers */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style for the .top container */
+.top {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style for headings */
+.top h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.top h1 {
+    font-size: 2.5em;
+    color: #e74c3c;
+    margin: 20px 0 10px;
+}
+
+/* Style for paragraph text */
+.top p {
+    font-size: 1em;
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Optional: Additional styling for better visual appearance */
+.top p:last-of-type {
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* BoxLayout.css */
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .box {
+    background-color: #77b6e0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+  }
+   

@@ -1,0 +1,88 @@
+.digitalmarketing{
+    background-color: #EDEDED;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .digital, .choose {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .digital h1, .choose h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .digital h2, .choose h3 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .digital p, .choose p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 20px;
+  }
+  
+  .choose h3 {
+    text-align: center;
+  }
+  
+  .img {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .choose1 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .choose1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .digital, .choose {
+      padding: 15px;
+    }
+  
+    .digital h1, .choose h1 {
+      font-size: 1.5em;
+    }
+  
+    .digital h2, .choose h3 {
+      font-size: 1.2em;
+    }
+  
+    .digital p, .choose p {
+      font-size: 1em;
+    }
+  }
+  

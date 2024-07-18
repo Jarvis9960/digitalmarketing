@@ -1,0 +1,69 @@
+.Sem{
+    background-color: #EDEDED;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sem-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }  
+  
+  .sem-container h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sem-container h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .sem-container p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 20px;
+  }
+  
+  .sem-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #666; 
+  }
+  
+  .sem-container ul li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .sem-container {
+      padding: 15px;
+    }
+  
+    .sem-container h1 {
+      font-size: 1.5em;
+    }
+  
+    .sem-container h2 {
+      font-size: 1.2em;
+    }
+  
+    .sem-container p, .sem-container ul {
+      font-size: 1em; 
+    }
+  }
+  

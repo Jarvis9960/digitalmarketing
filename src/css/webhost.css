@@ -1,0 +1,42 @@
+.web{
+    background-color: #EDEDED;
+}
+
+.hosting {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hosting h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hosting p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .hosting {
+      padding: 15px;
+    }
+  
+    .hosting h1 {
+      font-size: 1.5em;
+    }
+  
+    .hosting p {
+      font-size: 1em;
+    }
+  }
+  

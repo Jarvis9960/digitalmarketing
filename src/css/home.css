@@ -1,0 +1,124 @@
+.home{
+    /* height: 100vh; */
+    background: no-repeat;
+    background: linear-gradient(to bottom,#A6D7DB,#B0DAD9,#CAD6D6, #EDBEB8,#F2A9A2,#FD9288,  #FB7470 );
+}
+.head {
+    text-align: center;
+    padding: 20px 20px;
+    /* background-color:transparent; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin: 10px;
+    border-radius: 8px;
+    width: 50vw;
+}
+
+/* Headings styling */
+.head h1 {/*
+    margin: 0;
+    /* color: #333333; */
+    color: #8E7AB5;
+    font-size: 3em;
+    font-weight: normal;
+    margin-right: 90vh;
+}
+.head h2 {
+    margin: 0;
+    /* color: #333333; */
+    color: #8E7AB5;
+    font-size: 3em;
+    font-weight: normal;
+    margin-right: 40vh;
+}
+
+
+.head p {
+    /* color: #666666; */
+    color: #8E7AB5;
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+
+.head button {
+    padding: 10px 20px;
+    /* background-color: #007bff; */
+    background-color: #8E7AB5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.head button:hover {
+    background-color: #E493B3;
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 17vw;
+    margin-bottom: 28vh;
+    height: 50vh;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  
+
+.cards-container1 {
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card1 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* width: 200px; */
+    width: 17vw;
+    margin-bottom: 98vh;
+    height: 50vh;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+  }
+  
+  .card1 h2 {
+    margin-top: 0;
+  }     
+  
+  .card1 p {
+    color: #666;
+  }
+ 
